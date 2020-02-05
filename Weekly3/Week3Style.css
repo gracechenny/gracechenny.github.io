@@ -1,4 +1,13 @@
-body{
-  text-align: center;
-  color:green;
+h1{
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 50;
+  text-align:center;
+}
+h2{
+  font-style: italic;
+font-weight: bolder;
+font-size: 50;
+text-align:center;
+
 }
