@@ -1,0 +1,43 @@
+header {
+    width: 100%;
+    background-color: black;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 50;
+}
+
+#container {
+    width: 100%;
+    background-color: white;
+    margin: auto;
+}
+#first {
+    width: 50%;
+    text-align: right;
+    float: left;
+    height: 300px;
+        background-color: blue;
+    color: white;
+    font-size: 50;
+}
+#second {
+    text-align: left;
+    width: 50%;
+    float: left;
+    height: 300px;
+    color: blue;
+
+}
+#clear {
+  background-color: black;
+  height: 30px;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 50;
+    clear: both;
+}
