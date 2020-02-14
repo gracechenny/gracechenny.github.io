@@ -1,0 +1,29 @@
+
+div1{
+  align: center;
+
+}
+h1 {
+ margin: auto;
+ width: 90%;
+ border: 3px solid gray;
+ padding: 10px;
+ text-align: center;
+ align: center;
+}
+h2{
+  margin: auto;
+  width: 90%;
+  background-color: gray;
+  padding: 10px;
+  text-align: center;
+  align: center;
+  border: 3px solid gray;
+}
+div1{
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+  align: center;
+}
