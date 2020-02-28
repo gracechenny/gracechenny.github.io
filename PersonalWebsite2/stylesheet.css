@@ -35,8 +35,14 @@ body{
   text-align: left;
   padding: 0;
   display: inline-block;
-  -webkit-text-stroke: 2px #2EC1FF;
-}
+  -webkit-text-stroke: 2px #2EC1FF;}
+/* .animation{
+  animation-name: welcome;
+  animation-duration: 2s;}
+@keyframes welcome{
+  from
+  {-webkit-text-stroke: 2px #2EC1FF;}
+  to{color:#2EC1FF;} */
 
 
 .menubuttons h1{
