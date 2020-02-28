@@ -1,0 +1,77 @@
+body{
+  height: 0;
+  margin: 0;
+}
+nav{
+  height:15vh;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+nav h1{
+  width: 45%;
+  float:left;
+  margin: 0;
+  margin-left: 5%;
+  margin-top: 2vh;
+  font-family: rig-shaded-bold-face, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9vh;
+  color: #2EC1FF;
+  text-align: left;
+  padding: 0;
+  line-height: 15vh;
+}
+nav ul{margin: 0; width: 45%; float: right; margin-right: 5%;
+  padding: 0;  margin-top: 2vh;
+
+}
+nav ul li{
+  list-style: none;
+  float: right;
+  text-align: center;
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  line-height: 15vh;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #2EC1FF;
+  padding: 0 3vw;
+  font-size: 4vh;
+
+}
+.PhotoBox{
+  height:75vh;
+  margin: 0 0 0 5%;
+  padding-top: 20vh;
+  width:95%;
+
+}
+.innerwrapper img{
+  height: 75vh;
+  padding-right: 2vw;
+  margin: 0;
+  float: left;
+}
+.innerwrapper{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+}
+
+
+.about{
+  height: 75vh;
+  position: absolute;
+  top: 10%;
+  left:25%;
+}
+
+.about img{
+  height: 70vh;
+  margin: 15vh;
+}

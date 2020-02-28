@@ -13,64 +13,90 @@ body{
   margin: 45px;
   margin-top: 30px;
   margin-bottom: 30px;
-  height: 33vh;
-  width: 35vh;
+  height: 20vw;
+  width: 20vw;
   background-image: url("Asset 1.png");
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
 }
-.AboutText{
+.text{
   margin: 30px;
   margin-bottom: 0;
-  width: 35vh;
+  width: 20vw;
   height: 11vh;
-  background-image: url("Asset 4.png");
   background-size: contain;
   background-repeat: no-repeat;
+  transition: height 0.5s;
+
+}
+.PhotosText:hover{
+  height: 22vh;
+}
+.text img {
+  display: none;
+}
+
+.text2 {
+  display: none;
+}
+
+
+.text:hover img{
+  display: block;
+}
+
+.text:hover .text2{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.AboutText{
+
+  background-image: url("Asset 4.png");
+
 
 }
 .PhotosText{
-  margin: 30px;
-  margin-top: 0;
-  margin-bottom: 0;
-  width: 35vh;
-  height: 11vh;
+
   background-image: url("Asset 5.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+
 }
 .ResumeText{
-  margin: 30px;
-  margin-top: 0;
-  margin-bottom: 0;
-  width: 35vh;
-  height: 11vh;
+
   background-image: url("Asset 6.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+
 }
 
 .PhotoBox {
   height: 100vh;
-  width: 69%;
-  float: right;
+  width: auto;
+  overflow:auto;
+  align-content: center;
 
 }
 
-.ImageBox{
-  height: 80%;
+.ImageBox img{
   width: 35%;
   border: solid 1px black;
   float: left;
-  margin-top: 30px;
   padding: 2.5%;
   align-content: center;
-  margin-right: 45px;
+  margin: 30px;
 
 }
 
 img{
   max-width: 100%;
   max-height: 100%;
+}
+
+#plane{
+  width: 200px;
+  height: 130px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-100px,-65px);
+
 }

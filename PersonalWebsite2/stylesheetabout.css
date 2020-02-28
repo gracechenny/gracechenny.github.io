@@ -1,0 +1,101 @@
+body{
+  height: 0;
+  margin: 0;
+  overflow-y: hidden;
+}
+nav{
+  height:15vh;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+nav h1{
+  width: 45%;
+  float:left;
+  margin: 0;
+  margin-left: 5%;
+  margin-top: 2vh;
+  font-family: rig-shaded-bold-face, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9vh;
+  color: #2EC1FF;
+  text-align: left;
+  padding: 0;
+  line-height: 15vh;
+}
+nav ul{margin: 0; width: 45%; float: right; margin-right: 5%;
+  padding: 0;  margin-top: 2vh;
+
+}
+nav ul li{
+  list-style: none;
+  float: right;
+  text-align: center;
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  line-height: 15vh;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #2EC1FF;
+  padding: 0 3vw;
+  font-size: 4vh;
+
+}
+.leftbox{
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+.bluebox{
+  margin: 10vh 10% 10% 15%;
+  background-color: #CEF2F0;
+  height:80%;
+  border: 0;
+
+}
+.rightbox{
+  height: 100vh;
+  width:50%;
+  padding: 0;
+  float: right;
+}
+.projectsbox{
+  margin-top: 20vh;
+  width: 100%;
+  margin-left: 10%;
+
+}
+.projects p{
+  font-family: rig-shaded-bold-face, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8vh;
+  margin: 0;
+  color: rgba(0, 0, 0, 0);
+  text-align: left;
+  padding: 0;
+  display: inline-block;
+  -webkit-text-stroke: 1px #2EC1FF;}
+  .menuContainer{
+    margin-top: 22vh;
+    height: 88vh;
+    padding-right: 3vw;
+    padding-left: 10vw}
+
+  .innerwrapper img{
+      height: 88vh;
+      margin: 0;
+      float: left;
+      width: auto;
+    }
+    .innerwrapper{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        overflow:auto;
+        overflow-x: hidden;
+      }

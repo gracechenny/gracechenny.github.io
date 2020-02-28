@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.leftbox{
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+.bluebox{
+  margin: 10% 10% 10% 15%;
+  background-color: #CEF2F0;
+  height:80%;
+  border: 0;
+
+}
+.rightbox{
+  height: 100vh;
+  width:50%;
+  padding: 0;
+  float: right;
+}
+.welcomebox{
+  position: absolute;
+  left: 5%;
+  width: 50vw;
+}
+.welcomerepeating p{
+  font-family: rig-shaded-bold-face, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12vh;
+  margin: 0;
+  color: rgba(0, 0, 0, 0);
+  text-align: left;
+  padding: 0;
+  display: inline-block;
+  -webkit-text-stroke: 2px #2EC1FF;
+}
+
+
+.menubuttons h1{
+
+}
+.whitebox{
+  background: white;
+}
+.whitebox a:hover{
+
+}
+.blueboxes {
+  background-color:#CEF2F0;
+}
+
+.welcome h1{
+  font-family: rig-shaded-bold-face, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12vh;
+  margin: 0;
+  color: #2EC1FF;
+  text-align: left;
+
+  /* animation-name: welcomeCenter;
+  animation-duration: 2s;
+  animation-delay: 2s; */
+}
+.welcome p{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vh;
+  margin: 0;
+  color: #2EC1FF;
+  font-family: rig-shaded-bold-face, sans-serif;
+  text-align: left;
+}
+.welcome p1{
+  position: absolute;
+  right:50%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vh;
+  margin: 0;
+  color: #2EC1FF;
+  font-family: rig-shaded-bold-face, sans-serif;
+  text-align: right;
+}
+
+
+@keyframes welcomeCenter {
+  0%   { top:-50%;}
+  /* 25%  { top:0px;}
+  50%  {top:200px;}
+  75%  {top:200px;} */
+  100% {top:50%;}
+}
+
+.menubuttons{
+  float: left;
+  text-align: center;
+  align: center;
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  width: 33%;
+  height: 100%;
+  margin: 0;
+
+}
+.menubuttons a:link{
+  color: #2EC1FF;
+  text-decoration: none;
+}
+
+.menubuttons a:visited{
+  color: #2EC1FF;
+}
+.menuContainer{
+  margin-top: 33vh;
+  margin-bottom: 33vh;
+  height: 33vh;
+
+
+}
