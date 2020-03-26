@@ -26,3 +26,12 @@ p{
   font-family: nobel, sans-serif;
   font-weight: 200;
 }
+.quote{
+  /* position: absolute;
+  bottom: 50px; */
+  padding-top: 50px;
+  text-align: center;
+  color: red;
+  font-style: italic;
+  font-size: 25px;
+}
