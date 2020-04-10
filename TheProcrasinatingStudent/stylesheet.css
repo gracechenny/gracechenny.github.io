@@ -1,0 +1,88 @@
+body{
+  background-color: #C1E0DC;
+}
+h1{
+  font-family: bungee, sans-serif;
+  font-weight: 800;
+  font-size: 7vh;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 0;
+  height: 15vh;
+}
+h2{
+  font-family: source-code-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 15vh;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.AngryClock{
+    display: flex;
+    justify-content: center;}
+#Clock1{
+    position:absolute;
+    left: 43%;
+    bottom: 21%;
+  }
+
+.startButton{
+  background-color: #EDE5CD;
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  font-size: 3vh;
+  height: 7vh;
+  width: 11vw;
+  border-radius: 10px;
+  display: inline-block;
+  line-height: 7vh;
+  margin-top: 35vh;
+  border: 2px black;
+  align-items: center;
+  margin-left: 43vw;
+}
+
+
+
+.button1{
+  background-color: #C1E0DC;
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  font-size: 3vh;
+  height: 7vh;
+  width: 11vw;
+  border-radius: 10px;
+  display: none;
+  line-height: 7vh;
+  position: absolute;
+  left: 20%;
+  bottom: 10%;
+}
+
+.button2{
+  background-color: #C1E0DC;
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  font-size: 3vh;
+  height: 7vh;
+  width: 11vw;
+  border-radius: 10px;
+  display: none;
+  line-height: 7vh;
+  position: absolute;
+  right: 20%;
+  bottom: 10%;
+}
