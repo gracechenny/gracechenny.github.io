@@ -1,0 +1,81 @@
+*{margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F2EDE9;
+}
+.welcomeMessage {
+  grid-template-columns: 25% [welcomeMessage]50% 25%;
+  display: grid;
+  height: 40vh;
+  line-height: 70vh;
+  font-family: FatFrank;
+  color: #1D68ED;
+  background-color: #F2EDE9;
+  font-size: 260%;
+  text-align: left;
+}
+.welcomeMessage div{
+  grid-column-start: welcomeMessage;
+}
+
+.buttonsGrid{
+  margin: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: nobel;
+  color: #1D68ED;
+  background-color: #F2EDE9;
+  font-size: 2vw;
+}
+.weekliesButton{
+  text-align: right;
+  padding-right: 3vw;
+}
+.projectsButton{
+  padding-left:  3vw;
+}
+.menuGrid{
+  display: grid;
+  grid-template-columns: 25% [second] 50% 25%;
+  grid-template-rows: auto;
+}
+.menuGrid div{
+  font-family: FatFrank;
+  color: #F2EDE9;
+  font-size: 80%;
+}
+
+.menuGrid div p1{
+  font-family: nobel, sans-serif;
+  font-weight: 200;
+  font-size: 65%;
+}
+
+.menuGrid p{
+  padding-top: 3vh;
+  padding-bottom: 1vh;
+}
+
+.menuGrid a{
+  color: #F2EDE9;
+  display: block;
+}
+
+#weeklies{
+  background: #1D68ED;
+  padding-left: 5vh;
+  font-size: 2vw;
+  grid-column-start: second;
+  display: none;
+
+}
+
+#projects{
+  background: #1D68ED;
+  padding-left: 5vh;
+  grid-column-start: second;
+  display: none;
+  font-size: 2vw;
+}
