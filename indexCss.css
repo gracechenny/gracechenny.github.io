@@ -13,29 +13,27 @@ body{
   font-family: FatFrank;
   color: #1D68ED;
   background-color: #F2EDE9;
-  font-size: 260%;
+  font-size: 2.6vw;
   text-align: left;
 }
 .welcomeMessage div{
   grid-column-start: welcomeMessage;
+  overflow: hidden;
 }
 
 .buttonsGrid{
-  margin: 0;
   display: grid;
-  grid-template-columns: 50% 50%;
-  font-family: nobel;
+  font-family: nobel, sans-serif;
+  font-weight: 200;
+  font-style: normal;
   color: #1D68ED;
   background-color: #F2EDE9;
   font-size: 2vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  grid-template-columns: auto;
 }
-.weekliesButton{
-  text-align: right;
-  padding-right: 3vw;
-}
-.projectsButton{
-  padding-left:  3vw;
-}
+
 .menuGrid{
   display: grid;
   grid-template-columns: 25% [second] 50% 25%;
@@ -49,6 +47,7 @@ body{
 
 .menuGrid div p1{
   font-family: nobel, sans-serif;
+  font-style: italic;
   font-weight: 200;
   font-size: 65%;
 }
@@ -65,7 +64,7 @@ body{
 
 #weeklies{
   background: #1D68ED;
-  padding-left: 5vh;
+  padding: 5vh;
   font-size: 2vw;
   grid-column-start: second;
   display: none;
@@ -74,8 +73,16 @@ body{
 
 #projects{
   background: #1D68ED;
-  padding-left: 5vh;
+  padding: 5vh;
   grid-column-start: second;
   display: none;
   font-size: 2vw;
+}
+
+.projectsButton{
+  text-align: left;
+}
+
+.weekliesButton{
+  text-align: left;
 }
